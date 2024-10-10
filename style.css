@@ -1,0 +1,21 @@
+* {
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    color: firebrick;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Georgia';
+    line-height: 1; 
+    color: black; 
+    background-color: beige;
+}

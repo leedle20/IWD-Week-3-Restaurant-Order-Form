@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>Restaurant Order Form</title>
+<meta charset='utf-8'>
+<meta name='description' content='Create a Restaurant Order Form'>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header role='banner'>
+  <h1>Melvin's Ice Cream</h1>
+  <nav>
+    <ol role='navigation'>
+      <li>
+        <a href='#Menu'>Menu</a>
+      </li>
+      <li>
+        <a href='#Gallery'>Photo Gallery</a>
+      </li>
+      <li>
+        <a href='#Form'>Order Online Form</a>
+      </li>
+    </ol>
+  </nav>
+</header>
+
+
+<section>
+  <h2 id='Menu'> Menu </h2>
+  <p>
+    Each order includes three scoops.
+  </p>
+<ul>
+    <li>Taro Ice Cream ($3.50)</li>
+    <li>Matcha Ice Cream ($3.00)</li>
+    <li>Coconut Ice Cream ($2.50)</li>
+ </ul>
+</section>
+
+
+ <section>
+ <h2 id='Gallery'> Photo Gallery </h2>
+ <img src="https://sugaryums.com/wp-content/uploads/2023/06/Taro-Ice-Cream-Recipe-SugarYums-1.jpg" width="220" height="270" alt="Taro Ice Cream">
+ <p>Taro Ice Cream</p>
+ <img src="https://gourmetmami.com/wp-content/uploads/2021/02/matcha-ice-cream.jpg" width="220" height="270" alt="Num Ansom Jek">
+ <p>Matcha Ice Cream</p>
+ <img src="https://kirbiecravings.com/wp-content/uploads/2016/06/no-churn-coconut-ice-cream-6a.jpg" width="220" height="270" alt="Num Kom">
+ <p>Coconut Ice Cream</p>
+</section>
+
+
+<section>
+<h2 id='Form'> Order Online Form </h2>
+<!-- Add your restaurant order form below -->
+  <form role='order_form'>
+    Name:
+    <input type="text" name="name">
+    <br/>
+    Address:
+    <input type="text" name="address">
+    <br/>
+    City:
+    <input type="text" name="city">
+    <br/>
+    State:
+    <input type="text" name="state">
+    <br/>
+    Zip Code:
+    <input type="text" name="zip">
+    <br/>
+    <br/>
+    Phone Number:
+    <input type="text" name="phone">
+    <br/>
+    Email Address:
+    <input type="text" name="email">
+    <br/>
+    <br/>
+    Card Number:
+    <input type="text" name="cardnum">
+    <br/>
+    Expiration Date:
+    <input type="text" name="expiration">
+    <br/>
+    Three Digit Security Code:
+    <input type="text" name="security">
+    <br/>
+    <br/>
+    <input type="checkbox" name="icecream" value="Taro">Taro Ice Cream $3.50<br>
+    <input type="checkbox" name="icecream" value="Matcha">Matcha Ice Cream $3.00<br>
+    <input type="checkbox" name="icecream" value="pancakes">Coconut Ice Cream $2.50<br>
+    <br>
+    <input type='submit' value='Order' formaction="#">
+  </form>
+<!-- Add your restaurant order form above -->
+</main>
+</section> 
+
+
+</body>
+</html>
